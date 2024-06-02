@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #101820;
+}
+
+p, a {
+    color: #ddd;
+    font-family: 'Montserrat', sans;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex: 2;
+}
+
+nav ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+nav ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #d6a254;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body1 {
+    justify-content: space-evenly;
+    height: 800px;
+}
+
+#banner1 {
+    display: flex;
+    justify-content: center;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    color: #ddd;
+}
+
+.text1 h1{
+    font-size: 80px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.text1 p{
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.colorGold{
+    color: #d6a254;
+}
+
+.botoes {
+    display: flex;
+    align-content: center;
+    padding-top: 50px;
+}   
+
+.botaoTransparente {
+    text-decoration: none;
+    border: 1px solid #d6a254;
+    color: #d6a254;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.botaoGold {
+    text-decoration: none;
+    color: #101820;
+    border: #d6a254;
+    background-color: #d6a254;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.imgPrincipal img{
+    object-fit: contain;
+    width: 100%;
+}
+
+#secondStage {
+    display: flex;
+    justify-content: center;
+    background-color: #363535;
+    width: 100%;
+    height: 300px;
+}
+
+.body2 {
+    justify-content: space-evenly;
+}
+
+.visualText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    margin-left: 130px;
+}
+
+.visualText h1{
+    font-size: 90px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: left;
+}
+
+.visualText h2{
+    color: #ddd;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.descricao1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+    line-height: 25px;
+}
+
+.descricao1 h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.descricao1 p{
+    text-align: justify;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+
+.botao1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#tirthStage{
+    display: flex;
+    justify-content: center;
+}
+
+.body3 {
+    line-height: 25px;
+    width: 100%;
+    max-width: 800px;
+    word-spacing: 2px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+}
+
+.body3 h1{
+    font-size: 40px;
+    padding: 100px 0 40px 0;
+}
+
+.body3 p{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.folderServices {
+    display: inline-block;
+}
+
+#folderServices {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+footer{
+    background-color: #363535;
+    color: #ddd;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
